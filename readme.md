@@ -1,6 +1,7 @@
 # Docker env 
 
 Create an environment for development. 
+
 Git and Jupiter Lab share the same folder through a volume
 
 ![bad connection](docker-dev-env.png)
