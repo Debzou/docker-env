@@ -1,4 +1,4 @@
-# Docker env 
+# Docker env  :whale2:
 
 Create an environment for development. 
 
@@ -29,7 +29,7 @@ docker run --user root -v DataVolume:/home/jovyan -e CHOWN_HOME=yes -e CHOWN_HOM
 ```
 
 
-# Additional information :whale2:
+# Additional information
 ```bat
 docker volume ls
 ```
