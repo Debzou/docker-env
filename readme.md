@@ -1,5 +1,5 @@
-
-# Docker : Git :octocat:
+:octocat:
+# Docker : Git 
 
 ## Step 1 — Creating an Independent Volume
 ```bat
@@ -14,12 +14,14 @@ docker build . -t dev
 docker run -ti --rm -v DataVolume:/volume dev bash
 ```
 
-# Docker : Jupiter Lab :snake:
+:snake:
+# Docker : Jupiter Lab 
 ```bat
 docker run --user root -v DataVolume:/home/jovyan -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -it --rm -p 8888:8888 jupyter/datascience-notebook:latest
 ```
 
-# Additional information :whale2:
+:whale2:
+# Additional information 
 ```bat
 docker volume ls
 ```
