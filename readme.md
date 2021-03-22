@@ -19,7 +19,7 @@ docker run -ti --rm -v DataVolume:/volume dev bash
 docker run --user root -v DataVolume:/home/jovyan -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' -it --rm -p 8888:8888 jupyter/datascience-notebook:latest
 ```
 
-# additional information :whale2:
+# Additional information :whale2:
 ```bat
 docker volume ls
 ```
