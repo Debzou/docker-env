@@ -1,14 +1,20 @@
-# Docker : Git :octocat:
+# Docker env 
 
-## Step 1 — Creating an Independent Volume
+Create an environment for development. 
+Git and Jupiter Lab share the same folder through a volume
+
+## Creating an Independent Volume
 ```bat
 docker volume create --name DataVolume
 ```
-## Step 2 — Build the dev environement
+
+# Docker : Git :octocat:
+
+## Build the dev environement
 ```bat
 docker build . -t dev
 ```
-## Step 3 — Start the dev environement
+## Start the dev environement
 ```bat
 docker run -ti --rm -v DataVolume:/volume dev bash
 ```
