@@ -13,11 +13,11 @@ docker volume create --name DataVolume
 
 # Docker : Git :octocat:
 
-## Build the dev environement
+## Build the git environement
 ```bat
 docker build . -t dev
 ```
-## Start the dev environement
+## Start the git environement
 ```bat
 docker run -ti --rm -v DataVolume:/volume dev bash
 ```
