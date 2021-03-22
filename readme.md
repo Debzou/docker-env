@@ -1,5 +1,5 @@
 
-# Docker : Git  :octocat:
+:octocat: # Docker : Git  
 
 ## Step 1 — Creating an Independent Volume
 ```bat
