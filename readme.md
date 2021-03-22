@@ -3,6 +3,8 @@
 Create an environment for development. 
 Git and Jupiter Lab share the same folder through a volume
 
+![bad connection](docker-dev-env.png)
+
 ## Creating an Independent Volume
 ```bat
 docker volume create --name DataVolume
