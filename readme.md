@@ -29,10 +29,14 @@ docker run --user root -v DataVolume:/home/jovyan -e CHOWN_HOME=yes -e CHOWN_HOM
 ```
 
 
-# Additional information
+# Additional information :ghost:
+
+## List all volumes in your computer
 ```bat
 docker volume ls
 ```
+
+## Remove a volume 
 ```bat
 docker volume rm namevolume
 ```
